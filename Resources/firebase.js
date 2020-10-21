@@ -45,9 +45,10 @@ window.onload = function () {
       phoneNumber: phoneNumber,
       email: email,
       message: message,
-      img1: imageURL[0] ? imageURL[0] : null,
-      img2: imageURL[1] ? imageURL[1] : null,
-      img3: imageURL[2] ? imageURL[2] : null,
+      images: imageURL,
+      // img1: imageURL[0] ? imageURL[0] : null,
+      // img2: imageURL[1] ? imageURL[1] : null,
+      // img3: imageURL[2] ? imageURL[2] : null,
     };
     // Create a new entry to the database using those values
     //Use push instead of set because push automatically creates an id when data is save
@@ -98,7 +99,7 @@ window.onload = function () {
         modalTitle.innerHTML = 'Sent!';
         //3.Get URL
         storageRef.getDownloadURL().then(function (url) {
-          imagesUrl.push(url);
+          imagesUrl.push({ img: url });
           //Once all images are save, get url to save with applicant info
           if (imagesUrl.length == imageCount) {
             saveInfo(imagesUrl);
