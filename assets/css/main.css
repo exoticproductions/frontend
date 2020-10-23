@@ -333,6 +333,10 @@ br.clear {
   }
 }
 
+#req {
+  text-align: left;
+}
+
 /* Row */
 .row {
   display: flex;
@@ -1808,7 +1812,7 @@ body.is-preload #header footer {
   color: #fff;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
   text-align: center;
-  background: #383436 url("images/banner1.jpg") bottom center no-repeat;
+  background: #383436 url("images/banner1.jpg") no-repeat;
   padding: 5em 0 5em 0;
   margin: 0;
   background-size: 125% auto;
@@ -1823,10 +1827,21 @@ body.is-preload #header footer {
 #banner header h2 {
   font-weight: 400;
   font-size: 1.75em;
-  letter-spacing: 8px;
+  letter-spacing: 5px;
+  background-color: #BC0102;
+  padding: 5px;
+  border-radius: 10px;
+}
+#banner h3 {
+  font-size: 1.2em;
+  letter-spacing: 6px;
+  padding: 15px 0 15px 0;
 }
 #banner p {
-  margin: 0;
+  margin: 0 10px 0 10px;
+}
+#banner b {
+  font-weight: bold;
 }
 #banner footer {
   margin: 2em 0 0 0;
@@ -2249,6 +2264,11 @@ button,
   #banner header h2 {
     font-size: 1.5em;
     letter-spacing: 6px;
+  }
+  #banner h3 {
+    font-size: 1.1em;
+    letter-spacing: 6px;
+    padding: 15px 0 15px 0;
   }
 
   /* Footer */
