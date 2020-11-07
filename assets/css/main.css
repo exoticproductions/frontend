@@ -167,8 +167,7 @@ html {
 }
 
 body {
-  background-color: #183026;
-  background-image: url("images/body1.jpg");
+  background-color: #660404;
   background-repeat: repeat;
   background-size: auto, cover;
   background-position: top left, center 0;
@@ -1516,7 +1515,7 @@ button,
   position: relative;
   display: inline-block;
   border: 0;
-  background: #C30003;
+  background: #8d0606;
   color: #fff;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
   cursor: pointer;
@@ -1828,8 +1827,7 @@ body.is-preload #header footer {
   font-weight: 400;
   font-size: 1.75em;
   letter-spacing: 5px;
-  background-color: #BC0102;
-  padding: 5px;
+  color: #7a0505;
   border-radius: 10px;
 }
 #banner h3 {
@@ -2039,8 +2037,7 @@ select {
 @media screen and (max-width: 840px) {
   /* Basic */
   body {
-    background-color: #C80100;
-    background-image: url("images/body1.jpg");
+    background-color: #660404;
     background-repeat: repeat;
     background-size: cover;
     background-position: top left, top center;
