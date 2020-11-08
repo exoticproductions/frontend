@@ -301,6 +301,11 @@ table {
 header {
   margin-bottom: 1em;
 }
+header h1 {
+  font-family: "Prata", serif;
+  font-weight: bold;
+  color: #330202;
+}
 header p {
   display: block;
   margin: 0.5em 0 0 0;
@@ -1515,7 +1520,7 @@ button,
   position: relative;
   display: inline-block;
   border: 0;
-  background: #8d0606;
+  background: #660404;
   color: #fff;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
   cursor: pointer;
@@ -1531,23 +1536,23 @@ input[type=submit]:hover,
 input[type=reset]:hover,
 button:hover,
 .button:hover {
-  background: #3a3939;
+  background: #099c42;
 }
 input[type=button].style2,
 input[type=submit].style2,
 input[type=reset].style2,
 button.style2,
 .button.style2 {
-  color: #3a3939;
-  background: #fff;
-  box-shadow: inset 0 0 0 1px #fff;
+  color: #330202;
+  background-color: #670403;
+  box-shadow: inset 0 0 0 1px #f7f6ef;
 }
 input[type=button].style2:hover,
 input[type=submit].style2:hover,
 input[type=reset].style2:hover,
 button.style2:hover,
 .button.style2:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: #310101;
   color: #fff !important;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25) !important;
 }
@@ -1817,7 +1822,7 @@ body.is-preload #header footer {
   background-size: 125% auto;
 }
 #banner .button {
-  color: #333533;
+  color: #e4e7e4;
   text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 }
 #banner header {
